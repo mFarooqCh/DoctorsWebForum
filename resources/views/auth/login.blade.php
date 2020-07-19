@@ -3,10 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8 d-flex flex-column flex-center">
-            <div class="card card bg-primary text-light">
-                <div class="card-header h2 font-weight-lighter">Welcome to Doctor's Web Forum</div>
-                <div class="card-header">{{ __('Login to book appointment, submit quries and much more ') }}</div>
+        <div class="col-md-8 d-flex flex-column pt-4 flex-center">
+            <div class="card card bg-light-gray">
+                <div class="card-header h2 font-weight-lighter">Welcome back</div>
+                <div class="card-header">Login to book appointment, submit quries and much more.. </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -59,7 +59,7 @@
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link text-light" href="{{ route('password.request') }}">
+                                    <a class="btn btn-link " href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif

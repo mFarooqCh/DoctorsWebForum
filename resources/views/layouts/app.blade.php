@@ -28,7 +28,7 @@
 </head>
 <body>
     <div id="app">
-    <div class="container w-100 h-50 pb-3 position-relative" >
+    <div class="container w-100 h-50 pb-3 bg-light position-relative" >
          
          <span class="float-right">
          <b>Total Users</b> <b>&rarr;</b>  
@@ -39,7 +39,7 @@
          <span class="badge badge-success py-2 px-2">7</span>
          </span>
      </div>
-        <nav class="navbar navbar-expand-md navbar-defalut bg-dark-gray shadow-none w-100">
+        <nav class="navbar navbar-expand-md navbar-defalut bg-light shadow-none w-100">
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
                 <div>
@@ -105,6 +105,25 @@
         <main class="pb-4">
             @yield('content')
         </main>
+        <footer>
+        <div class="container-fluid">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+
+        <section class="container-fluid bg-light text-primary text-capitalize py-3 rounded">
+    <div class="container">
+    &copy; 2020 all rights reserved. <strong>M_F_CH</strong>
+    </div>
+        </section>
+
+        </div>
+
+
+        </footer>
     </div>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer>
