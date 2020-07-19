@@ -8,7 +8,7 @@
     </div>
 @endif
 
-<div class="container-fluid">
+<div class="container-fluid pb-2">
 <div id="mainSlider" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
@@ -29,7 +29,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container py-3">
     <div class="row justify-content-center">
        
        <div class="col-md-12 py-3 text-center">
@@ -38,11 +38,10 @@
         The Professional Healers .</h2>
         </div>
        
-       
-        <div class="col-md-12 py-3 row  px-0">
+        <div class="col-md-12 py-5 row  px-0">
         <div class="col-md-6">
         <h4 class="text-small text-uppercase text-primary">what we do</h4>
-        <h1 class="text-capitalize pb-3">  health information you can trust</h1>
+        <h1 class="text-capitalize pb-3"> health information you can trust</h1>
         
 
         <p class="px-0">

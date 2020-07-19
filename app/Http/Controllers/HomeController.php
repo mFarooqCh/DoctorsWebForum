@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    // custom written code
+    public function contactUs()
+    {
+        return view('contact');
+    }
 }

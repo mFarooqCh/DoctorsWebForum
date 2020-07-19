@@ -21,3 +21,7 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact','HomeController@contactUs'); // both ways are working
+// Route::get('/contact', function () {  //this is quit simple and old fashioned way
+//     return view('contact');
+// });
